@@ -1,0 +1,1 @@
+digite um numero: digite um numero outra vez: Primeiro nao eh multiplo

@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+#define MAXH 640
+#define MAXW 480
+
+typedef struct{
+	int w;
+	int h;
+	int mat[MAXW][MAXH];
+}imagem;
+
+
+void le_imagem(imagem p){
+	int i;
+	int j;
+	for(i=0;i<p.h;i++){
+		for(j=0;j<p.w;j++){
+			scanf("%d",&p.mat[i][j]);
+			printf("%d\n",p.mat[i][j]);
+		}
+	}	
+}
+
+int main(){
+
+}
+
